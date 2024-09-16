@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .logo img {
+    width: 170px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 5px;
+  }
+  
+  .header {
+    margin: 1%;
+    font-size: 20px;
+  }
+  
+  .nav-left,
+  .nav-right {
+    background-color: turquoise;
+  }
+  
+  .nav-left ul,
+  .nav-right ul {
+    list-style: none;
+  }
+  
+  .nav-left a,
+  .nav-right a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: whitesmoke;
+  }
+  
+  .nav-left a:hover,
+  .nav-right a:hover {
+    background-color: rgb(202, 255, 255);
+  }
+  
+  @media screen and (min-width: 560px) {
+    .header {
+      width: 1160px;
+      margin: auto;
+      display: flex;
+      margin-top: 1%;
+      justify-content: space-between;
+    }
+  
+    .nav-left ul,
+    .nav-right ul {
+      display: flex;
+    }
+  
+    .nav-left,
+    .nav-right {
+      background: none;
+    }
+  
+    .nav-left a,
+    .nav-right a {
+      color: black;
+    }
+  }
+  
+  /* main */
+  .main {
+    margin-top: 30px;
+  }
+  
+  .main-left img {
+    width: 290px;
+    display: block;
+    margin: auto;
+  }
+  
+  .main-right {
+    text-align: center;
+    margin-top: 28px;
+  }
+  
+  @media (min-width: 560px) {
+    .main {
+      width: 960px;
+      margin: auto;
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+    }
+    .main-left img {
+      width: 450px;
+    }
+    .main-right {
+      margin: auto;
+      margin-left: 30px;
+      text-align: left;
+    }
+  
+    .main-right h2 {
+      margin-bottom: 10px;
+      font-size: 35px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+  
+  /* produk */
+  .display {
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(8, 193, 218);
+  }
+  
+  .image img {
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+  
+  .product-content {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .deskripsi p {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 560px) {
+    .produk {
+      width: 960px;
+      margin: auto;
+      display: flex;
+    }
+    .product-content {
+      height: 400px;
+    }
+  
+    .image {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .image img {
+      width: 200px;
+      display: block;
+      margin: auto;
+    }
+  
+    .display {
+      font-size: 30px;
+    }
+  }
+  
+  /* Informasi */
+  
+  .info {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .icon img {
+    width: 50px;
+    display: block;
+    margin-right: 5px;
+  }
+  
+  .info-content {
+    height: 70px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-deskirpsi h2 {
+    font-size: 15px;
+  }
+  
+  .info-deskirpsi p {
+    font-size: 12px;
+  }
+  
+  @media (min-width: 560px) {
+    .info {
+      width: 960px;
+      margin: auto;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Medsos */
+  .medsos-icon img {
+    width: 30px;
+    margin: 7px;
+  }
+  
+  .medsos-icon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .medsos-main {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .medsos-form {
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .medsos-form form input {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(221, 248, 247);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: -5px;
+    border: none;
+  }
+  
+  .medsos-form form input[type="email"] {
+    padding: 10px;
+  }
+  
+  .medsos-form form button {
+    height: 30px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    background-color: rgb(221, 248, 247);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  @media (min-width: 560px) {
+    .medsos {
+      width: 960px;
+      margin: auto;
+      margin-top: 50px;
+    }
+  }
+  
+  /* footer */
+  
+  footer {
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    display: flex;
+  }
+  
+  .logo-bank img {
+    width: 70px;
+  }
+  
+  .identitas {
+    flex: 1;
+  }
+  
+  .sitemap {
+    flex: 1;
+  }
+  
+  .sitemap li {
+    list-style: none;
+    padding: 3px;
+  }
+  
+  .sitemap li a {
+    text-decoration: none;
+    color: turquoise;
+  }
+  
+  .payment {
+    flex: 1;
+  }
+  
+  .sitemap h2,
+  .identitas h2 {
+    font-size: 15px;
+  }
+  
+  .identitas p {
+    font-size: 12px;
+  }
+  
+  .sitemap a {
+    font-size: 12px;
+  }
+  
+  .bank p {
+    font-size: 12px;
+  }
+  
+  .bank h3 {
+    font-size: 12px;
+  }
+  
+  .bank {
+    padding-bottom: 15px;
+  }
+  
+  @media (min-width: 560px) {
+    footer {
+      width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+  
+    .sitemap h2,
+    .identitas h2 {
+      font-size: 20px;
+    }
+  
+    .identitas p {
+      font-size: 15px;
+    }
+  
+    .sitemap a {
+      font-size: 15px;
+    }
+  }
