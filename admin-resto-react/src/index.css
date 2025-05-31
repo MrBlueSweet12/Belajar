@@ -1,0 +1,19 @@
+/* Add custom styles here */
+.nav-link {
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.table-dark {
+    background-color: #343a40;
+}

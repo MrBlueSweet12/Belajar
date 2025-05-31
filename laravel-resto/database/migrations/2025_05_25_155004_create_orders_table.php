@@ -17,7 +17,7 @@ return new class extends Migration
             $table->date('order_date');
             $table->decimal('total_price', 10, 2);
             $table->timestamps();
-    }
+        });
 
     /**
      * Reverse the migrations.
